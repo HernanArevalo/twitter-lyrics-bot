@@ -5,11 +5,11 @@ import json
 
 
 
-#API_KEY = os.environ["API_KEY"]
-#API_SECRET = os.environ["API_SECRET"]
-#BEARER_TOKEN = os.environ["BEARER_TOKEN"]
-#ACCESS_TOKEN = os.environ["ACCESS_TOKEN"]
-#ACCESS_SECRET = os.environ["ACCESS_SECRET"]
+API_KEY = os.environ["API_KEY"]
+API_SECRET = os.environ["API_SECRET"]
+BEARER_TOKEN = os.environ["BEARER_TOKEN"]
+ACCESS_TOKEN = os.environ["ACCESS_TOKEN"]
+ACCESS_SECRET = os.environ["ACCESS_SECRET"]
 
 
 
@@ -26,6 +26,7 @@ import json
 
 with open("phrases.json", "r") as f:
     phrases = json.load(f)
+
 
 
 random_index = random.randint(0,len(phrases)-1)
