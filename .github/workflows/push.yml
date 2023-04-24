@@ -1,6 +1,6 @@
 name: Post tweet
 
-# on: 
+on: push
 #   schedule:
 #   - cron: "30 */6 * * *"
 
