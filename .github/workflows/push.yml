@@ -1,15 +1,17 @@
 name: Post tweet
 
 on: push
-#   schedule:
-#   - cron: "30 */6 * * *"
+  schedule:
+  - cron: "24 */6 * * *"
+
+
 env:
   API_KEY: ${{ secrets.API_KEY }}
   API_SECRET: ${{ secrets.API_SECRET }}
   BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
   ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
-  
+
 jobs:
   run-python:
     runs-on: ubuntu-latest

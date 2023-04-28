@@ -30,4 +30,4 @@ phrase = phrases[random_index]
 print(client.create_tweet( text = phrase ))
     
 
-print( phrase )
+# print( phrase )
