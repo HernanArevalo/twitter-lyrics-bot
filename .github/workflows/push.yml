@@ -24,6 +24,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
         run:
-          python install requests
-          python install --user tweepy
           python main.py
