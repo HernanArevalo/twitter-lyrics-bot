@@ -34,7 +34,7 @@ random_index = random.randint(0,len(phrases)-1)
 phrase = phrases[random_index]
 
 # Creating a tweet to test the bot
-client.create_tweet( text = phrase )
+print(client.create_tweet( text = phrase ))
     
 
 print( phrase )
