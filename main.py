@@ -31,10 +31,10 @@ with open("phrases.json", "r") as f:
 
 random_index = random.randint(0,len(phrases)-1)
 
-
+phrase = phrases[random_index]
 
 # Creating a tweet to test the bot
-client.create_tweet(text=phrases[random_index])
+client.create_tweet( text = phrase )
     
 
-print(phrases[random_index])
+print( phrase )
