@@ -24,10 +24,10 @@ with open("phrases.json", "r") as f:
 
 random_index = random.randint(0,len(phrases)-1)
 
-phrase = "Yo no miento, solo digo la verdad.\nLas fuentes son dudosas, pero digo la verdad."
+phrase = phrases[random_index]
 
 # Creating a tweet to test the bot
 print(client.create_tweet( text = phrase ))
     
 
-#print( phrase )
+# print( phrase )
