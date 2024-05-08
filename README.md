@@ -1,6 +1,6 @@
 # twitter-bot
 
-### Step to tweet:
+### Steps to tweet:
 
 1. create a .env file with your credentials. You can get then from 
 <a href="www.developer.twitter.com">www.developer.twitter.com</a>
