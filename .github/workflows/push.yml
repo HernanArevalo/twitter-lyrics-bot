@@ -26,8 +26,7 @@ jobs:
       
       - name: install requests
         run: |
-          pip install requests
-          pip install --user tweepy
+          pip install requests && pip install --user tweepy
 
       - name: run main.py
         env:
