@@ -25,7 +25,7 @@ jobs:
           python-version: '3.11'
       
       - name: install requests
-        run:
+        run: |
           pip install requests
           pip install --user tweepy
 
